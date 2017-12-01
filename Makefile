@@ -4,7 +4,7 @@ APP=trade
 trade:$(OBJ)
 	$(CXX)  -c  *.cpp
 	$(CXX)  -o $(APP) *.o
-	echo "compile success!!!\r\ncopyrigth by lio"
+	echo "compile success!!! Copyrigth by lio"
 clean:
 	rm *.o
 	rm $(APP)
@@ -61,7 +61,7 @@ fetch:
 push:
 #	git add.
 #	git commit -m "update"
-#	git push origin master 
+#	git push origin master
 #	git push https://github.com/lion037osx/currency.git
 	git push origin
 pull:

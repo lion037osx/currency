@@ -1,11 +1,12 @@
 #ifndef __BUY_H__
 #define __BUY_H__
-//#include <string>
-class Buy{
+//#include <string>public
+#include"money.h"
+class Buy:public Money{
 private:
 	int id_buy;
 	//string name_buy;
- 
+
 public:
 	Buy();
 	~Buy();

@@ -1,6 +1,6 @@
 #include<iostream>
-#include "money.h"
-#include "people.h"
+//#include "money.h"
+#include "user.h"
 #include "buy.h"
 #include "database.h"
 
