@@ -1,10 +1,10 @@
 #ifndef __DATABASE_H__
 #define __DATABASE_H__
-//#include <string>
+
 class Database{
 private:
 	int id_database;
-//	string name_database;
+	char name_database[40];
 
 
 public:

@@ -2,10 +2,10 @@
 #include"money.h"
 using namespace std;
 Money::Money(){
-cout<<"constructor money"<<endl;
+cout<<"constructor Money"<<endl;
 }
 
 Money::~Money(){
-cout<<"destructor money"<<endl;
+cout<<"destructor Money"<<endl;
 }
 
