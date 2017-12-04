@@ -11,6 +11,8 @@ private:
 public:
 	Mining();
 	~Mining();
+	void init();
+	void generate();
 };
 
 #endif

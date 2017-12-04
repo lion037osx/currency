@@ -1,18 +1,13 @@
 CXX=g++
 OBJ=main.o
-APP=trade
-trade:$(OBJ)
+APP=app
+app:$(OBJ)
 	$(CXX)  -c  *.cpp
 	$(CXX)  -o $(APP) *.o
 	echo "compile success!!! Copyrigth by lio"
 clean:
 	rm *.o
 	rm $(APP)
-
-
-
-
-
 
 help:
 	@+echo ""
@@ -49,7 +44,7 @@ status:
 	git remote -v
 merge:
 	git merge
-	#git remote -v
+#git remote -v
 upgrade:
 	git add .
 	git commit -m "update"
@@ -77,3 +72,10 @@ init:
 	git commit -m "first commit"
 	git remote add origin https://github.com/lion037osx/currency.git
 	git push -u origin master
+branch:
+	git branch contact-slave
+	git checkout contact-slave
+	git add --all
+	git commit-m "new branch"
+master:
+	git checkout master

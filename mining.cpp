@@ -9,3 +9,13 @@ cout<<"constructor Mining"<<endl;
 Mining::~Mining(){
 cout<<"destructor Mining"<<endl;
 }
+
+void Mining:: init(){
+
+
+}
+
+void Mining::generate(){
+
+
+}
