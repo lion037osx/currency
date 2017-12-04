@@ -35,3 +35,7 @@ return this->value_money;
 void Money::set_value_money(double value_money_tmp){
 this->value_money=value_money_tmp;
 }
+
+int Money::get_id_money(){
+return this->id_money;
+}

@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<iostream>
+//#include "buy.h"
 using namespace std;
 
 class Money{
@@ -11,6 +12,7 @@ protected:
 	int id_money;
 	double value_money;
 	string name_money;
+	double quantity;
 
 
 public:
@@ -21,6 +23,7 @@ public:
 	string get_name_money(string modify);
 	double get_value_money();
 	void set_value_money(double);
+	int get_id_money();
 };
 
 #endif

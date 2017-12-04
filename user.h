@@ -2,17 +2,21 @@
 #define __USER_H__
 #include <string>
 #include <stdio.h>
-#include "stdlib.h"
+#include <stdlib.h>
+#include "database.h"
+#include "wallet.h"
+
 using namespace std;
 
-class User{
+class User:public Database, Wallet
+{
 private:
-		int id_people;
+		int id_user;
 		string username;
 		string name;
 public:
 	User();
-	User(string,string);
+	User(int,string,string);
 	~User();
 };
 #endif

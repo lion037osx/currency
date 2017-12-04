@@ -2,7 +2,7 @@
 #include"user.h"
 
 
-User::User(){
+User::User():Database(){
 cout<<"constructor User"<<endl;
 }
 
@@ -11,8 +11,9 @@ cout<<"destructor User"<<endl;
 }
 
 
-User::User(string name,string username){
+User::User(int id,string name,string username){
   this->username=username;
   this->name=name;
-  cout<<"People::People(string str)"<<endl;
+  this->id_user=id;
+  cout<<"User::User( "<<id<<" , "<<name<<" , "<<username<<" )"<<endl;
 }
