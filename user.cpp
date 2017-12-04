@@ -17,3 +17,9 @@ User::User(int id,string name,string username){
   this->id_user=id;
   cout<<"User::User( "<<id<<" , "<<name<<" , "<<username<<" )"<<endl;
 }
+
+void User::buy(Buy & m_buy){
+
+
+
+}

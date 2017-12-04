@@ -4,8 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include<iostream>
-//#include "buy.h"
+
+
 using namespace std;
+//template <class TypeMoney>
 
 class Money{
 protected:

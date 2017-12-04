@@ -11,6 +11,9 @@ Wallet::~Wallet(){
 cout<<"destructor Wallet"<<endl;
 }
 
+Wallet::Wallet(Money &){
+
+}
 
 void Wallet::put(){
 cout<<"BITCOIN"<<this->bitcoin<<endl;

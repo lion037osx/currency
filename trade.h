@@ -7,6 +7,7 @@ private:
 public:
 	Trade();
 	~Trade();
+	void trading();
 };
 
 #endif

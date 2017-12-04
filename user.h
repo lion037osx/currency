@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "database.h"
 #include "wallet.h"
+#include "buy.h"
 
 using namespace std;
 
@@ -18,5 +19,7 @@ public:
 	User();
 	User(int,string,string);
 	~User();
+	void buy(Buy &);
+
 };
 #endif
